@@ -1,10 +1,10 @@
 #!/bin/bash
-rm -r /home/repository/ingsist
-rm -r /home/repository/projectone
+#rm -r /home/repository/ingsist
+#rm -r /home/repository/projectone
 #mkdir magwi
 
-cd /home/repository; git clone git@github.com:elmagwi/ingsist.git
-cd /home/repository; git clone git@github.com:wcalisaya/projectone.git
+#cd /home/repository; git clone git@github.com:elmagwi/ingsist.git
+cd /var/www; git pull origin master
 
 
 
